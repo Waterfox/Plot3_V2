@@ -1,0 +1,303 @@
+.wrapper {
+}
+
+
+header {
+	background-color: #EEE;
+	border-bottom: 5px solid #CCC;
+	padding: 10px;
+
+	height: 50px;
+}
+
+header h1 {
+	padding: 0px;
+	margin: 0px;
+
+	display: inline;
+
+	font-size: 48px;
+	font-family: 'Lato', sans-serif;
+
+	line-height: 50px;
+}
+header h1 a {
+	color: #111;
+	text-decoration: none;
+}
+#title_num {
+}
+
+header h1 span {
+
+}
+
+header nav {
+	float: right;
+	display: inline-block;
+
+	vertical-align: top;
+}
+
+header nav ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+header nav ul li {
+	float: left;
+	vertical-align: top;
+}
+
+header nav ul li a {
+	display: inline-block;
+	vertical-align: top;
+
+	height: 50px;
+	line-height: 50px;
+
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+
+	color: #111;
+	text-decoration: none;
+
+	font-family: 'Lato', sans-serif;
+}
+header nav ul li a em {
+	color: #888;
+
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
+}
+header nav ul li a.emph {
+}
+
+header nav ul li a:hover {
+	background-color: #DDD;
+
+	text-decoration: underline;
+}
+
+header.thin {
+	background: none;
+	border: none;
+	padding: 10px;
+}
+
+header.float {
+	background-color: rgba(255, 255, 255, 0.7);
+	border-bottom: 5px solid rgba(204, 204, 204, 0.7);
+
+	opacity: 0.1;
+
+	-webkit-transition: opacity 0.2s, top 0.2s;
+	-moz-transition: opacity 0.2s, top 0.2s;
+	-ms-transition: opacity 0.2s, top 0.2s;
+	-o-transition: opacity 0.2s, top 0.2s;
+	transition: opacity 0.2s, top 0.2s;
+
+	position: fixed;
+	z-index: 100;
+
+	right: 0;
+	left: 0;
+	top: -47px;
+}
+
+header.float:hover {
+	opacity: 1;
+	top: 0px;
+
+	-webkit-transition: opacity 0.2s, top 0.2s;
+	-moz-transition: opacity 0.2s, top 0.2s;
+	-ms-transition: opacity 0.2s, top 0.2s;
+	-o-transition: opacity 0.2s, top 0.2s;
+	transition: opacity 0.2s, top 0.2s;
+}
+
+.floatbottom {
+	opacity: 0.3;
+
+	background-color: rgba(255, 255, 255, 0.7);
+	border-top: 5px solid rgba(204, 204, 204, 0.7);
+
+	width: 100%;
+
+	position: fixed;
+	left: 100%;
+	margin-left: -100%;
+
+	padding: 10px;
+
+	bottom: -30px;
+
+	text-align: left;
+
+	-webkit-transition: opacity 0.2s, bottom 0.2s;
+	-moz-transition: opacity 0.2s, bottom 0.2s;
+	-ms-transition: opacity 0.2s, bottom 0.2s;
+	-o-transition: opacity 0.2s, bottom 0.2s;
+	transition: opacity 0.2s, bottom 0.2s;
+}
+.floatbottom .left {
+	float: left;
+}
+.floatbottom .right {
+	float: right;
+}
+.floatbottom .right input:last-child {
+	margin-right: 20px;
+}
+
+.floatbottom:hover {
+	opacity: 1;
+	bottom: 0px;
+
+	-webkit-transition: opacity 0.2s, bottom 0.2s;
+	-moz-transition: opacity 0.2s, bottom 0.2s;
+	-ms-transition: opacity 0.2s, bottom 0.2s;
+	-o-transition: opacity 0.2s, bottom 0.2s;
+	transition: opacity 0.2s, bottom 0.2s;
+}
+
+article {
+	box-sizing: border-box;
+
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 3%;
+	padding-bottom: 80px;
+
+	max-width: 1420px;
+	margin: auto;
+
+	font-family: 'Lato', sans-serif;
+}
+
+article h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+	padding: 0px;
+	margin: 0px;
+
+	display: inline-block;
+}
+
+svg {
+  font-size: 12px;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#chart {
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cbutton input {
+	vertical-align: top;
+
+	margin-top: 8px;
+}
+
+#catadded {
+	padding-left: 5px;
+
+	margin-bottom: 5px;
+
+	height: 29px;
+	line-height: 29px;
+
+	display: inline-block;
+
+	background-color: black;
+	color: white;
+}
+
+#catadded input {
+	display: inline-block;
+
+	height: 29px;
+	line-height: 29px;
+
+	margin-left: 5px;
+
+	padding-left: 7px;
+	padding-right: 7px;
+
+	font-size: 12px;
+
+	vertical-align: top;
+
+	color: #999;
+	font-weight: bold;
+
+	cursor: pointer;
+}
+#catadded span:hover {
+	background-color: #333;
+	color: #CCC;
+}
+
+#preview_chart {
+	border: 1px solid black;
+}
+#preview_chart svg {
+	height: 280px;
+}
+
+.col_one {
+	position: relative;
+	vertical-align: top;
+	float: left;
+	width: 49.9%;
+	display: inline-block;
+}
+.col_one_exp {
+	vertical-align: top;
+
+	width: 62.9%;
+	display: inline-block;
+}
+.col_two {
+	position: relative;
+	vertical-align: top;
+	float: right;
+	width: 49.9%;
+	display: inline-block;
+}
+.col_two_shr {
+	vertical-align: top;
+
+	width: 35.9%;
+	display: inline-block;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+
+	padding: 10px;
+	padding-bottom: 11px;
+
+	background-color: #EEE;
+
+	border-top: 2px solid #DDD;
+
+	color: black;
+
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+footer a {
+
+}
